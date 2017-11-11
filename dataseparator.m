@@ -3,7 +3,7 @@ maindir = 'data_by_trials';
 classdir = './data_by_trials/%s/';
 speeddir = './data_by_trials/%s/%d/';
 template = './data_by_trials/%s/%d/%s';
-dirtemplate = './data_by_trials/%d/%s/*.mat';
+dirtemplate = './data_by_trials/%s/%d/*.mat';
 mkdir(maindir);
 for i=1:len
     str = mydata{i}.filename;
